@@ -21,7 +21,7 @@ const Card = () => {
       <div className="links">
         <p><MdBusiness />{company || 'Prime-Industries'}</p>
         <p><MdLocationOn />{location  || 'GJ03 - 360005'}</p>
-        <a href={`https://${blog}`}><MdLink></MdLink>{blog}</a>
+        <a href={`https://${blog}`}><MdLink></MdLink>{blog || 'comfort-store-zk.netlify.app'}</a>
       </div>
     </Wrapper>
   );
